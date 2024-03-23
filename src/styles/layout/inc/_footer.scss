@@ -1,0 +1,23 @@
+footer {
+    width: 100%;
+    background-color: $primaryColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+
+    h1 {
+        color: #fff;
+        font-size: 1.1em;
+        font-weight: 400;
+        text-align: center;
+
+        a {
+            color: $secondaryColor;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

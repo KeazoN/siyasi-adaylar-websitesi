@@ -1,0 +1,12 @@
+section.TurkeyMap {
+    width: 100%;
+    padding: 1rem 0;
+    .container {
+        position: relative;
+        z-index: 2;
+
+        svg {
+            cursor: pointer;
+        }
+    }
+}
